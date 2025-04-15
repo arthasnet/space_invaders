@@ -1,0 +1,38 @@
+# Game constants
+
+# Screen settings
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+SCREEN_TITLE = "Space Invaders"
+FPS = 60
+
+# Colors (RGB values)
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+
+# Player settings
+PLAYER_SPEED = 5
+PLAYER_SIZE = (50, 40)
+PLAYER_START_X = SCREEN_WIDTH // 2
+PLAYER_START_Y = SCREEN_HEIGHT - 70
+
+# Enemy settings
+ENEMY_SPEED = 2
+ENEMY_SIZE = (40, 40)
+ENEMY_ROWS = 5
+ENEMY_COLS = 10
+ENEMY_SPACING = 10
+ENEMY_DROP_SPEED = 20
+
+# Projectile settings
+BULLET_SPEED = 7
+BULLET_SIZE = (3, 15)
+BULLET_COLOR = WHITE
+
+# Game settings
+SCORE_PER_HIT = 10
+PLAYER_LIVES = 3
+
